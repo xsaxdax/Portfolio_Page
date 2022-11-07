@@ -102,7 +102,6 @@
 		@include breakpoint('<=xlarge') {
 			@include html-grid((1.25em, 1.25em), 'xlarge');
 		}
-
 		@include breakpoint('<=large') {
 			@include html-grid((1.25em, 1.25em), 'large');
 		}
@@ -366,7 +365,7 @@
 
 		&.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 0 0em 2em 0;
 		}
 
 		&.centered {
